@@ -4,14 +4,11 @@
         font-family: fantasy;
         box-sizing: border-box;
     }
-    body{
-        background-color: #222;
-    }
     .card{
         width: 90%;
         max-width: 470px;
         color: #fff;
-        background: linear-gradient(135deg,#00fec7,#5b548a);
+        background: linear-gradient(135deg,#331086,#6b005d);
         margin: 100px auto 0;
         border-radius: 20px;
         padding: 40px  35px ;
@@ -92,11 +89,26 @@
     }
     .heading{
         text-align: center;
-        margin-top: 20px;
-        font-size: 2vw;
-        color: #555;
+        margin-top: 15px;
+        font-size: 1.5vw;
+        color: #ffffff;
         word-spacing: 5px;
-        text-decoration: overline;
+        letter-spacing: 1px;
+        /* text-decoration: overline; */
         cursor: pointer;
         margin-bottom: -85px;
     }
+
+    #vid {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+    .content {
+        position: fixed;
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+      }
